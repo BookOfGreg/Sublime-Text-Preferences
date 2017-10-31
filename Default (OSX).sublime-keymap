@@ -1,0 +1,65 @@
+// I keep ALL keybindings I like here, not just ones that have changed.
+[
+// Text movement
+  { "keys": ["super+shift+d"], "command": "duplicate_line" },
+  { "keys": ["super+ctrl+d"], "command": "duplicate_line" },
+  { "keys": ["super+ctrl+right"], "command": "indent" },
+  { "keys": ["super+ctrl+left"], "command": "unindent" },
+  { "keys": ["ctrl+super+up"], "command": "swap_line_up" },
+  { "keys": ["ctrl+super+down"], "command": "swap_line_down" },
+  // { "keys": ["super+shift+l"], "command": "reindent", "args": { "single_line": false } },
+
+// Text selection/search
+  { "keys": ["super+d"], "command": "find_under_expand" },
+  { "keys": ["super+g"], "command": "find_all_under" },
+  { "keys": ["ctrl+shift+up"], "command": "select_lines", "args": {"forward": false} },
+  { "keys": ["ctrl+shift+down"], "command": "select_lines", "args": {"forward": true} },
+  { "keys": ["super+m"], "command": "move_to", "args": {"to": "brackets"} },
+  { "keys": ["super+shift+m"], "command": "expand_selection", "args": {"to": "brackets"} },
+  { "keys": ["super+shift+g"], "command": "goto_definition" },
+
+// Text search
+  { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "find"} },
+  { "keys": ["super+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+
+// Text Case change
+  { "keys": ["super+shift+c", "super+shift+t"], "command": "title_case"},
+  { "keys": ["super+shift+c", "super+shift+u"], "command": "upper_case"},
+  { "keys": ["super+shift+c", "super+shift+l"], "command": "lower_case"},
+  { "keys": ["super+shift+c", "super+shift+s"], "command": "convert_to_snake"},
+  { "keys": ["super+shift+c", "super+shift+c"], "command": "convert_to_camel"},
+  { "keys": ["super+shift+c", "super+shift+p"], "command": "convert_to_pascal"},
+  { "keys": ["super+shift+c", "super+shift+d"], "command": "convert_to_dot"},
+  { "keys": ["super+shift+c", "super+shift+h"], "command": "convert_to_dash"},
+  { "keys": ["super+shift+c", "super+shift+w"], "command": "convert_to_separate_words"},
+  { "keys": ["super+shift+c", "super+shift+/"], "command": "convert_to_slash"},
+  { "keys": ["super+shift+c", "super+shift+k"], "command": "constantize_case"},
+
+// File manipulation
+  { "keys": ["super+n"], "command": "new_file" },
+  { "keys": ["super+w"], "command": "close" },
+
+// File search
+  { "keys": ["super+shift+."], "command": "rails_go_to_spec" },
+  { "keys": ["super+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+
+// Other text mutations
+  { "keys": ["super+shift+h"], "command": "html_entitize" },
+  { "keys": ["super+x"], "command": "cut" },
+  { "keys": ["super+c"], "command": "copy" },
+  // { "keys": ["super+v"], "command": "paste" },
+  // { "keys": ["super+shift+v"], "command": "paste_and_indent" },
+  { "keys": ["super+v"], "command": "paste_and_indent" },
+
+  { "keys": ["super+shift+`"], "command": "delete_trailing_spaces" },
+  { "keys": ["super+forward_slash"], "command": "toggle_comment", "args": { "block": false } },
+
+// Other
+  { "keys": ["super+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+  { "keys": ["super+b"], "command": "toggle_side_bar" },
+  { "keys": ["super+e"], "command": "git_commit_msg" },
+
+
+  { "keys": ["super+r"], "command": "build" },
+  { "keys": ["super+shift+t"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+]
