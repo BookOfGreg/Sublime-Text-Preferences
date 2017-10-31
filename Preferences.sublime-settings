@@ -1,0 +1,66 @@
+{
+	"added_words":
+	[
+		"defeasible",
+		"linter",
+		"linting",
+		"Django",
+		"impactful",
+		"shortcut",
+		"Graphviz",
+		"tuples",
+		"Wamberto",
+		"Vasconcelos",
+		"Caminada",
+		"Kutlak"
+	],
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"default_encoding": "utf-8",
+	"detect_indentation": false,
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": false,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.aux",
+		"*.gz",
+		".DS_Store"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		".sass-cache",
+		".bundle",
+		"CVS",
+		"node_modules",
+		"log",
+		"coverage",
+		"tmp"
+	],
+	"font_size": 15,
+	"ignored_packages":
+	[
+		"Case Conversion",
+		"Dockerfile Syntax Highlighting",
+		"Vintage"
+	],
+	"rulers":
+	[
+		80,
+		100,
+		120
+	],
+	"save_on_focus_lost": true,
+	"scroll_past_end": true,
+	"show_full_path": true,
+	"tab_size": 2,
+	"theme": "DefaultPlus Monokai.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_separators": "./\\()\"'-:,.;<>~@#$%^&*|+=[]{}`~",
+	"word_wrap": "false"
+}
