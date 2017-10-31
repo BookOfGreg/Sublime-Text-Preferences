@@ -46,6 +46,7 @@
 	[
 		"Case Conversion",
 		"Dockerfile Syntax Highlighting",
+		"TOML",
 		"Vintage"
 	],
 	"rulers":
