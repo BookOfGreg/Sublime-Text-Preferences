@@ -36,6 +36,8 @@
 		"SideBarEnhancements",
 		"StringEncode",
 		"SublimeLinter",
+		"SublimeLinter-contrib-dockerfilelint",
+		"SublimeLinter-eslint",
 		"SublimeLinter-pylint",
 		"SublimeLinter-ruby",
 		"Terraform",

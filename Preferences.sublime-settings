@@ -20,7 +20,7 @@
 	"detect_indentation": false,
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"draw_white_space": "all",
-	"ensure_newline_at_eof_on_save": true,
+	"ensure_newline_at_eof_on_save": false,
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -38,15 +38,20 @@
 		"CVS",
 		"node_modules",
 		"log",
-		"coverage",
-		"tmp"
+		"coverage"
 	],
-	"font_size": 15,
+	"font_size": 14,
 	"ignored_packages":
 	[
 		"Case Conversion",
 		"Dockerfile Syntax Highlighting",
 		"TOML",
+		"RailsGoToSpec",
+		"SublimeLinter",
+		"SublimeLinter-contrib-dockerfilelint",
+		"SublimeLinter-eslint",
+		"SublimeLinter-pylint",
+		"SublimeLinter-ruby",
 		"Vintage"
 	],
 	"rulers":
@@ -58,6 +63,7 @@
 	"save_on_focus_lost": true,
 	"scroll_past_end": true,
 	"show_full_path": true,
+	"spell_check": false,
 	"tab_size": 2,
 	"theme": "DefaultPlus Monokai.sublime-theme",
 	"translate_tabs_to_spaces": true,
