@@ -15,7 +15,7 @@
 		"Kutlak"
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"default_encoding": "utf-8",
 	"detect_indentation": false,
 	"dictionary": "Packages/Language - English/en_GB.dic",
@@ -45,13 +45,15 @@
 	[
 		"Case Conversion",
 		"Dockerfile Syntax Highlighting",
-		"TOML",
+		"Markdown",
 		"RailsGoToSpec",
+		"Rust",
 		"SublimeLinter",
 		"SublimeLinter-contrib-dockerfilelint",
 		"SublimeLinter-eslint",
 		"SublimeLinter-pylint",
 		"SublimeLinter-ruby",
+		"TOML",
 		"Vintage"
 	],
 	"rulers":
